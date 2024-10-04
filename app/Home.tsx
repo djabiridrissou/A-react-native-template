@@ -43,7 +43,7 @@ export default function Home() {
         <View style={styles.container}>
             {!isCameraVisible ? (
                 <TouchableOpacity style={styles.openCameraButton} onPress={() => setCameraVisible(true)}>
-                    <Text style={styles.openCameraButtonText}>Open Camera</Text>
+                    <Text style={styles.openCameraButtonText}>Ouvrir Camera</Text>
                 </TouchableOpacity>
             ) : (
                 <View style={styles.cameraContainer}>
